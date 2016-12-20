@@ -2,7 +2,11 @@
   "name": "continuify",
   "version": "0.1.0",
   "description": "Converts an array of functions into continuation-passing style",
-  "main": "src/continuify.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shruubi/Continuify.git"
+  },
+  "main": "build/continuify.js",
   "scripts": {
     "test": "mocha --require babel-core/register",
     "build": "gulp",
